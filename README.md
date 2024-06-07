@@ -18,24 +18,19 @@ This repository contains the implementation of a lab exercise to understand the 
 This project demonstrates the use of NVIC and EXTI on an STM32 microcontroller. It covers configuring interrupts, writing interrupt service routines (ISRs), and managing race conditions.
 
 ## Prerequisites
-- Understanding of interrupts (Chapter 6)
+- Understanding of interrupts 
 - Basic knowledge of STM32 microcontroller and GPIO configuration
 
 ## Objectives
 - Understand NVIC capabilities and its differences from typical interrupt controllers
 - Review NVIC registers
 - Configure and handle interrupts from start to finish
-- Implement EXTI driver functions: `Exti_Init(...)`, `Exti_Enable(...)`, and `Exti_Disable(...)`
+- Implement EXTI driver 
 
 ## Project Description
 The project consists of two main parts:
 1. **LED Toggle**: Detect a falling edge event on a button pin to toggle an LED in an ISR.
 2. **Decimal Counter**: Increment or decrement a counter displayed on a 7-segment display using two buttons with interrupts configured on GPIO falling edge.
-
-### Functions to Implement
-- `Exti_Init(...)`
-- `Exti_Enable(...)`
-- `Exti_Disable(...)`
 
 ### System Inputs and Outputs
 - **Inputs**: Two push buttons connected to pins PA9 and PB5
