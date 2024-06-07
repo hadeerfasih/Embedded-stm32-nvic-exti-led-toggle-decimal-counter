@@ -60,3 +60,8 @@ The project consists of two main parts:
 2. Flash the microcontroller with the provided code.
 3. Press the buttons to see the LED toggle and the decimal counter increment or decrement on the 7-segment display.
 
+   
+
+
+https://github.com/hadeerfasih/Embedded-stm32-nvic-exti-led-toggle-decimal-counter/assets/104545742/12d3d728-4053-48ee-9761-b1a78e932a51
+
